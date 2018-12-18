@@ -1,0 +1,37 @@
+h1{
+
+}
+h2{
+    
+}
+body {
+    background-color: lightblue;
+  }
+
+  .header{
+    background-color: darkblue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  .bouton {
+    width: 80px;
+    background-color: brown;
+    font: bold;
+    color: white;
+    border-style: outset;
+    padding: 25px 50px;
+
+  }
+  .bouton:hover {
+    background-color: rgb(204, 78, 78)
+  }
+  .bouton:active {
+    background-color: rgb(165, 101, 42);
+    border-style:inset;
+  }
