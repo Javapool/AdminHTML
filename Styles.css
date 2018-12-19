@@ -9,12 +9,20 @@ body {
   }
 
   .header{
-    background-color: rgb(46, 44, 44) ;
-  padding-top: 50px;
+  background-color: rgb(46, 44, 44) ;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
   }
   
-  .bontonbg{
+  .boutonbg{
+    margin: 0 auto;
+    display: inline-flex;
     background-color: rgb(56, 29, 29) ;
+    height: 50px;
+    width: 100%;
+    
   }
   
   h1 {
@@ -35,14 +43,20 @@ body {
     font-size: 1.7em
   }
   .bouton {
-    width: 80px;
+    width: 15%;
+    height: 100%;
     background-color: brown;
-    font: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: bold;
     color: white;
     border-style: outset;
-    padding: 25px 50px;
-    transition: 0.5s
-
+    padding: initial;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+    vertical-align: 50%;
+    text-decoration: none;
   }
   .bouton:hover {
     background-color: rgb(204, 78, 78)
@@ -57,4 +71,48 @@ body {
     background-position-y: 200px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+  }
+  .Biographie{
+    background-image: url("images/YoungBG.jpg");
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Photos{
+    background-image:linear-gradient(white, black);
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .AlbumsNotables{
+    background-image: url("images/SadPianoBG.jpg");
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Discographie{
+    background-image: url("images/herbie pianoafro.jpg");
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .Contact{
+    background-image: url("images/moderncpu.jpg");
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .lefttext
+  {
+    width: 35%;
+    padding-top: 50px;
+    font-size: 1.2em;
+    align-content: center;
+    float: left;
+    color: rgb(197, 167, 149);
   }
