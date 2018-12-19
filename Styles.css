@@ -5,20 +5,35 @@ h2{
     
 }
 body {
-    background-color: lightblue;
+    background-color: black;
   }
 
   .header{
-    background-color: darkblue;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    background-color: rgb(46, 44, 44) ;
+  padding-top: 50px;
+  }
+  
+  .bontonbg{
+    background-color: rgb(56, 29, 29) ;
   }
   
   h1 {
-    color: navy;
-    margin-left: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em
   }
 
+  h2 {
+    color: red;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7em
+  }
   .bouton {
     width: 80px;
     background-color: brown;
@@ -26,6 +41,7 @@ body {
     color: white;
     border-style: outset;
     padding: 25px 50px;
+    transition: 0.5s
 
   }
   .bouton:hover {
@@ -34,4 +50,11 @@ body {
   .bouton:active {
     background-color: rgb(165, 101, 42);
     border-style:inset;
+  }
+  .index{
+    background-image: url("images/SadPianoBG.jpg");
+    background-size: 100%;
+    background-position-y: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
