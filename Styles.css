@@ -1,5 +1,40 @@
+th, td {
+  padding: 60px;
+}
+table{
+  margin-top: 50px;
+}
+
 body {
     background-color: black;
+  }
+
+  #homebouton{
+    width: 4%;
+    height: 100%;
+    background-color: brown;
+    font-size: 1.5em;
+    border-style: outset;
+    padding: initial;
+    transition: 0.5s;
+    float: left;
+    text-align: center;
+    vertical-align: 50%;
+  }
+
+  .photoalbum{
+    border: 3px;
+    border-color: blueviolet;
+    height: 500px;
+    width: 500px;
+  }
+
+  #homebouton:hover {
+    background-color: rgb(204, 78, 78)
+  }
+  #homebouton:active {
+    background-color: rgb(165, 101, 42);
+    border-style:inset;
   }
 
   .header{
@@ -76,7 +111,6 @@ body {
   .Photos{
     background-image:linear-gradient(white, black);
     background-size: 100%;
-    background-position-y: 200px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
