@@ -1,9 +1,3 @@
-h1{
-
-}
-h2{
-    
-}
 body {
     background-color: black;
   }
@@ -75,7 +69,7 @@ body {
   .Biographie{
     background-image: url("images/YoungBG.jpg");
     background-size: 100%;
-    background-position-y: 200px;
+    background-position-y: 250px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -96,14 +90,14 @@ body {
   .Discographie{
     background-image: url("images/herbie pianoafro.jpg");
     background-size: 100%;
-    background-position-y: 200px;
+    /* background-position-y: 200px; */
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
   .Contact{
     background-image: url("images/moderncpu.jpg");
     background-size: 100%;
-    background-position-y: 200px;
+    background-position-y: -10px;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
