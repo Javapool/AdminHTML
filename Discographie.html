@@ -5,16 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Musique</title>
+    <title>Discographie</title>
     <style>
     table, th, td {
+        text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
   border: 2px solid bisque;
   height: auto;
   color: bisque
 }
+table{
+        margin: auto;
+        margin-top: 200px;
+}
 th{
         background-color: brown;
         text-decoration: underline;
+}
+td{
+        height:10px;
 }
     </style>
 </head>
@@ -32,7 +44,11 @@ th{
                 <a class=bouton href="Contact.html">Contact</a>
         </div>
 
-        <table >
+        <table text-align=center>
+        <col width="20%">
+        <col width="35%">
+        <col width="20%">
+        <col width="25%">
                 <tr>
                         <th>Enregistrement</th>
                         <th>Nom de l'album</th>
@@ -131,6 +147,12 @@ th{
                         <td>	Album studio</td>
                 </tr>
         </table>
+        <hr>
+        <div class="invisiblebox">
+                        <p class="disclaimer">L'entièreté de l'information fournie ici est tirée directement de wikipedia. Pour y accéder directement appuyez sur l'icone ci dessous
+                        <br><a href="https://fr.wikipedia.org/wiki/Herbie_Hancock"><img src="./Images/Icones/Wikipedia-logoTR.png" width="40px" alt="Wikipedia"></a>
+                        </p>
+                    </div>
     
 </body>
 </html>
